@@ -1,0 +1,3 @@
+[build]
+  Command = "cd app && yarn install && yarn build"
+  Publish = "app/public"

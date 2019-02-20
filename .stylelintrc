@@ -1,0 +1,17 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components",
+    "stylelint-config-prettier"
+  ],
+  "syntax": "scss",
+  "ignoreFiles": [
+    "./src/settings.json",
+    "./src/components/Icon/icons.json"
+  ],
+  rules: {
+     "comment-empty-line-before": "always",
+     "rule-empty-line-before": "always"
+    }
+}

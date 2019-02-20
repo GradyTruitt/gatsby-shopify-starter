@@ -1,0 +1,13 @@
+{
+  "siteTitle": "Luncher",
+  "siteTitleAlt": "Luncher.io",
+  "siteLogo": "/logos/logo.png",
+  "metaImage": "/logos/meta-image.jpg",
+  "siteUrl": "https://beta.luncher.io",
+  "siteDescription": "Your favorites delivered to your office for FREE!",
+  "pathPrefix": "/",
+  "siteFBAppID": "00000000000",
+  "googleAnalyticsID": "UA-115640663-1",
+  "backgroundColor": "#8f8f8f",
+  "themeColor": "#000000"
+}

@@ -1,0 +1,5 @@
+extends:
+  # overwrite any rules that may conflict with prettier
+  - 'prettier'
+  - 'prettier/react'
+parser: 'babel-eslint'

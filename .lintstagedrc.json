@@ -1,0 +1,8 @@
+{
+  "src/**/*.{js,jsx,json}": [
+    "prettier --single-quote --no-semi --write",
+    "eslint",
+    "stylelint 'src/**/*.js'",
+    "git add"
+  ]
+}
