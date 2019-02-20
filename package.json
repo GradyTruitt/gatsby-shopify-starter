@@ -1,5 +1,5 @@
 {
-  "name": "zz",
+  "name": "gatsby-shopify-starter",
   "version": "0.0.1",
   "description": "Gatsby Shopify Starter",
   "main": "build/index.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "Gatsby",
-    "Shopify", 
+    "Shopify",
     "Apollo",
     "Styled-Components",
     "React",
