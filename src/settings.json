@@ -1,13 +1,13 @@
 {
-  "siteTitle": "Luncher",
-  "siteTitleAlt": "Luncher.io",
+  "siteTitle": "Gatsby Shopify Starter",
+  "siteTitleAlt": "Custom Shopify Storefront built with GatsbyJS",
   "siteLogo": "/logos/logo.png",
   "metaImage": "/logos/meta-image.jpg",
-  "siteUrl": "https://beta.luncher.io",
-  "siteDescription": "Your favorites delivered to your office for FREE!",
+  "siteUrl": "https://yoursiteurl.com",
+  "siteDescription": "A boilerplate starter for building custom shopify storefronts with GatsbyJS",
   "pathPrefix": "/",
   "siteFBAppID": "00000000000",
-  "googleAnalyticsID": "UA-115640663-1",
+  "googleAnalyticsID": "ID GOES HERE",
   "backgroundColor": "#8f8f8f",
   "themeColor": "#000000"
 }
