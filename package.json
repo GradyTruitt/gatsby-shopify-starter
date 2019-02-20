@@ -7,6 +7,14 @@
     "name": "Grady Truitt",
     "email": "gradytruitt@gmail.com"
   },
+  "keywords": [
+    "Gatsby",
+    "Shopify", 
+    "Apollo",
+    "Styled-Components",
+    "React",
+    "Netlify"
+  ],
   "scripts": {
     "lint:css": "stylelint 'src/**/*.js'",
     "format": "prettier --no-semi --single-quote --write \"src/**/*.js\"",
