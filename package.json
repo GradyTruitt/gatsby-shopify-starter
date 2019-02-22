@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "description": "Gatsby Shopify Starter",
   "main": "build/index.js",
-  "author": {
-    "name": "Grady Truitt",
-    "email": "gradytruitt@gmail.com"
-  },
+  "author": "Grady Truitt <gradytruitt@gmail.com>",
   "keywords": [
     "Gatsby",
     "Shopify",
@@ -72,5 +69,14 @@
     "stylelint-config-standard": "^18.2.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GradyTruitt/gatsby-shopify-starter.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GradyTruitt/gatsby-shopify-starter/issues"
+  },
+  "homepage": "https://github.com/GradyTruitt/gatsby-shopify-starter#readme"
 }
