@@ -18,7 +18,7 @@ class Initialize extends Component {
       const { data } = await createCheckout()
 
       if (typeof window === 'undefined') return null
-      window.localStorage.setItem('amataCheckoutID', data.checkoutCreate.checkout.id)
+      window.localStorage.setItem(`${process.env.GATSBY_SHOPIFY_STOREFRONT_NAME}CheckoutID`, data.checkoutCreate.checkout.id)
       this.setState({ checkoutId: getCheckoutId()})
     }
 
@@ -43,7 +43,7 @@ class Initialize extends Component {
 
 const getCheckoutId = () => {
   if (typeof window === 'undefined') return null
-  return window.localStorage.amataCheckoutID
+  return window.localStorage[`${process.env.GATSBY_SHOPIFY_STOREFRONT_NAME}CheckoutID`]
 }
 
 const createCheckout = graphql(
